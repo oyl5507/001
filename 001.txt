@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI 童装商拍 - 四季青专供 | 1:1还原面料质感的AI换装领先者</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap');
+        body { font-family: 'Inter', "Microsoft YaHei", sans-serif; }
+        .gradient-blue { background: linear-gradient(135deg, #2563eb 0%, #1e40af 100%); }
+        .text-gradient { background: linear-gradient(90deg, #3b82f6, #60a5fa); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        .card-hover { transition: all 0.3s ease; }
+        .card-hover:hover { transform: translateY(-10px); box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1); }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-900">
+
+    <nav class="fixed w-full z-50 bg-white/90 backdrop-blur-md border-b border-slate-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-20 items-center">
+                <div class="flex items-center space-x-2">
+                    <div class="w-10 h-10 bg-blue-600 rounded-lg flex items-center justify-center">
+                        <i class="fas fa-bolt text-white text-xl"></i>
+                    </div>
+                    <span class="text-2xl font-black tracking-tighter">AI FASHION <span class="text-blue-600">LAB</span></span>
+                </div>
+                <div class="hidden lg:flex space-x-10 font-bold text-slate-600">
+                    <a href="#home" class="hover:text-blue-600">首页</a>
+                    <a href="#advantage" class="hover:text-blue-600">核心优势</a>
+                    <a href="#painpoints" class="hover:text-blue-600">行业痛点</a>
+                    <a href="#portfolio" class="hover:text-blue-600">样片库</a>
+                    <a href="#pricing" class="hover:text-blue-600">合作报价</a>
+                    <a href="#about" class="hover:text-blue-600">关于我们</a>
+                </div>
+                <a href="#contact" class="gradient-blue text-white px-6 py-3 rounded-full font-bold shadow-lg hover:opacity-90 transition">免费试拍</a>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="relative pt-40 pb-20 bg-white overflow-hidden">
+        <div class="max-w-7xl mx-auto px-4 flex flex-col lg:flex-row items-center">
+            <div class="lg:w-1/2 text-center lg:text-left">
+                <h1 class="text-5xl lg:text-7xl font-black leading-tight mb-6">
+                    AI 童装商拍<br><span class="text-gradient">四季青专供</span>
+                </h1>
+                <p class="text-xl text-slate-500 mb-10 max-w-lg mx-auto lg:mx-0">
+                    成本直降 <span class="text-blue-600 font-bold">80%</span>。拒绝 AI 塑料感，24 小时极速交付，让您的测款速度跑赢流量。
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
+                    <a href="#contact" class="gradient-blue text-white px-10 py-5 rounded-2xl font-black text-lg shadow-2xl hover:scale-105 transition">立即咨询</a>
+                    <div class="flex items-center gap-3 px-6 py-5 bg-slate-100 rounded-2xl font-bold">
+                        <i class="fas fa-play-circle text-blue-600 text-2xl"></i> 观看最新样片
+                    </div>
+                </div>
+            </div>
+            <div class="lg:w-1/2 mt-16 lg:mt-0 relative">
+                <div class="rounded-[2.5rem] overflow-hidden shadow-2xl border-[12px] border-white relative">
+                    <img src="https://images.unsplash.com/photo-1519234164450-2975d7d718a0?auto=format&fit=crop&q=80" class="w-full h-auto" alt="AI Showcase">
+                </div>
+                <div class="absolute top-10 -right-10 bg-white p-4 rounded-2xl shadow-xl animate-bounce">
+                    <p class="text-xs text-slate-400">交付周期</p>
+                    <p class="text-lg font-bold text-green-600">24小时内</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="advantage" class="py-24 bg-slate-50">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-black mb-4">为什么选择 AI Fashion Lab？</h2>
+                <p class="text-slate-500 text-lg">5项核心技术指标，定义 AI 商拍新高度</p>
+            </div>
+            <div class="grid md:grid-cols-3 gap-8 text-center">
+                <div class="bg-white p-10 rounded-3xl card-hover border border-slate-100">
+                    <div class="w-16 h-16 bg-blue-100 text-blue-600 rounded-2xl flex items-center justify-center mx-auto mb-6">
+                        <i class="fas fa-child text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-4">真实儿童体态</h3>
+                    <p class="text-slate-500 text-sm leading-relaxed">彻底告别五官畸变与僵硬感。精准还原儿童自然比例，让买家看了不违和，种草更高效。</p>
+                </div>
+                <div class="bg-white p-10 rounded-3xl card-hover border border-slate-100">
+                    <div class="w-16 h-16 bg-blue-100 text-blue-600 rounded-2xl flex items-center justify-center mx-auto mb-6">
+                        <i class="fas fa-tshirt text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-4">面料 1:1 还原</h3>
+                    <p class="text-slate-500 text-sm leading-relaxed">光影通透，面料褶皱、纹理、色准完美保留，解决电商最头疼的“货不对板”退货难题。</p>
+                </div>
+                <div class="bg-white p-10 rounded-3xl card-hover border border-slate-100">
+                    <div class="w-16 h-16 bg-blue-100 text-blue-600 rounded-2xl flex items-center justify-center mx-auto mb-6">
+                        <i class="fas fa-wind text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-4">自然物理动作</h3>
+                    <p class="text-slate-500 text-sm leading-relaxed">转身、抬手时裙摆自然飘动。基于物理引擎的动态生成，赋予静态服装灵魂。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="painpoints" class="py-24 bg-slate-900 text-white">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="grid lg:grid-cols-2 gap-20 items-center">
+                <div>
+                    <h2 class="text-4xl lg:text-5xl font-black mb-8 leading-tight">你的生意，<br>不该被拍摄锁死利润</h2>
+                    <div class="space-y-8">
+                        <div class="flex gap-6">
+                            <div class="flex-shrink-0 w-12 h-12 bg-red-500/20 text-red-500 rounded-full flex items-center justify-center">
+                                <i class="fas fa-times"></i>
+                            </div>
+                            <div>
+                                <h4 class="text-xl font-bold mb-2">档期生死线</h4>
+                                <p class="text-slate-400">心仪童模排期两周后？等拍完上架，竞争对手的仿款已抢占流量。爆款变库存，只在瞬间。</p>
+                            </div>
+                        </div>
+                        <div class="flex gap-6">
+                            <div class="flex-shrink-0 w-12 h-12 bg-red-500/20 text-red-500 rounded-full flex items-center justify-center">
+                                <i class="fas fa-times"></i>
+                            </div>
+                            <div>
+                                <h4 class="text-xl font-bold mb-2">“小祖宗”的情绪溢价</h4>
+                                <p class="text-slate-400">童模哭闹、配合度低。每小时几千元的租棚费和人工费在燃烧。拍摄不再是创作，是煎熬。</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-slate-800 p-8 rounded-[2rem] border border-slate-700">
+                    <div class="bg-blue-600 p-6 rounded-2xl mb-6">
+                        <h4 class="text-xl font-bold mb-2">AI 方案介入后的损益变动：</h4>
+                        <div class="flex justify-between items-end mt-4">
+                            <div><p class="text-sm opacity-80">单条成本</p><p class="text-3xl font-black">↓ 90%</p></div>
+                            <div><p class="text-sm opacity-80">交付速度</p><p class="text-3xl font-black">↑ 10x</p></div>
+                            <div><p class="text-sm opacity-80">退货率</p><p class="text-3xl font-black">↓ 15%</p></div>
+                        </div>
+                    </div>
+                    <p class="text-slate-400 italic font-serif">“在四季青，快就是一切。我们用 AI 帮您抢回失去的时间。”</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="flex justify-between items-end mb-16">
+                <div>
+                    <h2 class="text-4xl font-black">样片展示库</h2>
+                    <p class="text-slate-500 mt-2">稳定、高质量的成片落地案例</p>
+                </div>
+                <div class="hidden md:flex gap-4">
+                    <button class="px-6 py-2 rounded-full bg-blue-600 text-white font-bold">全选</button>
+                    <button class="px-6 py-2 rounded-full border border-slate-200 font-bold hover:bg-slate-50 transition">7岁童模</button>
+                    <button class="px-6 py-2 rounded-full border border-slate-200 font-bold hover:bg-slate-50 transition">5岁童模</button>
+                    <button class="px-6 py-2 rounded-full border border-slate-200 font-bold hover:bg-slate-50 transition">室内/外景定制</button>
+                </div>
+            </div>
+            
+            <div class="grid md:grid-cols-3 gap-6">
+                <div class="group relative rounded-[2rem] overflow-hidden aspect-[9/16] bg-slate-200">
+                    <img src="https://images.unsplash.com/photo-1503919545889-aef636e10ad4?auto=format&fit=crop&q=80" class="w-full h-full object-cover group-hover:scale-110 transition duration-700">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent flex flex-col justify-end p-8 opacity-0 group-hover:opacity-100 transition">
+                        <p class="text-white font-bold text-lg mb-2">#北欧实拍质感</p>
+                        <p class="text-slate-300 text-sm">绝美光影还原，面料细腻度 100%</p>
+                    </div>
+                </div>
+                <div class="group relative rounded-[2rem] overflow-hidden aspect-[9/16] bg-slate-200">
+                    <img src="https://images.unsplash.com/photo-1471286174890-9c112ffca5b4?auto=format&fit=crop&q=80" class="w-full h-full object-cover group-hover:scale-110 transition duration-700">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent flex flex-col justify-end p-8 opacity-0 group-hover:opacity-100 transition">
+                        <p class="text-white font-bold text-lg mb-2">#春日桃花林 Vlog</p>
+                        <p class="text-slate-300 text-sm">自然动态飘动，高转化率种草素材</p>
+                    </div>
+                </div>
+                <div class="group relative rounded-[2rem] overflow-hidden aspect-[9/16] bg-slate-200">
+                    <img src="https://images.unsplash.com/photo-1555121235-86f376378e9f?auto=format&fit=crop&q=80" class="w-full h-full object-cover group-hover:scale-110 transition duration-700">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent flex flex-col justify-end p-8 opacity-0 group-hover:opacity-100 transition">
+                        <p class="text-white font-bold text-lg mb-2">#中古咖啡店定制</p>
+                        <p class="text-slate-300 text-sm">针对跨境/高端品牌调性打造</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="pricing" class="py-24 bg-slate-50">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-black mb-4">商业报价</h2>
+                <p class="text-slate-500">透明定价，支持散单及批量定制</p>
+            </div>
+            <div class="grid md:grid-cols-4 gap-6">
+                <div class="bg-white p-8 rounded-3xl border border-slate-100 shadow-sm text-center">
+                    <h3 class="font-bold text-slate-400 mb-4 uppercase tracking-widest text-sm">单件尝鲜</h3>
+                    <p class="text-4xl font-black mb-6">¥150 <span class="text-sm font-normal text-slate-400">/条</span></p>
+                    <ul class="text-sm space-y-4 mb-8 text-slate-600">
+                        <li>1080P 高清交付</li>
+                        <li>24h 极速周期</li>
+                        <li>1条起订</li>
+                    </ul>
+                    <a href="#contact" class="block py-3 border border-blue-600 text-blue-600 rounded-xl font-bold">选择</a>
+                </div>
+                <div class="bg-blue-600 p-8 rounded-3xl shadow-2xl text-center text-white transform scale-105">
+                    <h3 class="font-bold mb-4 uppercase tracking-widest text-sm text-blue-200">批量上新</h3>
+                    <p class="text-4xl font-black mb-6">¥120 <span class="text-sm font-normal text-blue-200">/条</span></p>
+                    <ul class="text-sm space-y-4 mb-8">
+                        <li>风格高度统一</li>
+                        <li>48h 批量交付</li>
+                        <li>10条起订</li>
+                    </ul>
+                    <a href="#contact" class="block py-3 bg-white text-blue-600 rounded-xl font-black shadow-lg">推荐下单</a>
+                </div>
+                <div class="bg-white p-8 rounded-3xl border border-slate-100 shadow-sm text-center">
+                    <h3 class="font-bold text-slate-400 mb-4 uppercase tracking-widest text-sm">加急爆款</h3>
+                    <p class="text-4xl font-black mb-6">¥280 <span class="text-sm font-normal text-slate-400">/条</span></p>
+                    <ul class="text-sm space-y-4 mb-8 text-slate-600">
+                        <li>6h 闪电出片</li>
+                        <li>死磕爆款红利</li>
+                        <li>不限起订量</li>
+                    </ul>
+                    <a href="#contact" class="block py-3 border border-blue-600 text-blue-600 rounded-xl font-bold">选择</a>
+                </div>
+                <div class="bg-white p-8 rounded-3xl border border-slate-100 shadow-sm text-center">
+                    <h3 class="font-bold text-slate-400 mb-4 uppercase tracking-widest text-sm">全案定制</h3>
+                    <p class="text-4xl font-black mb-6">¥300 <span class="text-sm font-normal text-slate-400">/条</span></p>
+                    <ul class="text-sm space-y-4 mb-8 text-slate-600">
+                        <li>专属 AI 童模形象</li>
+                        <li>品牌专属场景开发</li>
+                        <li>5条起订</li>
+                    </ul>
+                    <a href="#contact" class="block py-3 border border-blue-600 text-blue-600 rounded-xl font-bold">选择</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="py-24 bg-white border-t border-slate-100">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="flex flex-col lg:flex-row gap-20 items-center">
+                <div class="lg:w-1/2">
+                    <h2 class="text-4xl font-black mb-6">更懂电商的<br>AI 智能化团队</h2>
+                    <p class="text-lg text-slate-600 leading-relaxed mb-6">
+                        我们深耕于 AI 视觉生成领域，团队成员来自顶尖 AI 实验室及资深电商拍摄行业。我们明白，技术不应只是炫技，更要能支撑复刻高转化率的爆款视频。
+                    </p>
+                    <div class="grid grid-cols-2 gap-8 mt-10 text-center">
+                        <div class="p-6 bg-slate-50 rounded-2xl border border-slate-100">
+                            <p class="text-3xl font-black text-blue-600">50+</p>
+                            <p class="text-sm text-slate-500">成片打磨废稿/条</p>
+                        </div>
+                        <div class="p-6 bg-slate-50 rounded-2xl border border-slate-100">
+                            <p class="text-3xl font-black text-blue-600">500+</p>
+                            <p class="text-sm text-slate-500">合作头部商家</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="lg:w-1/2 bg-slate-100 rounded-[2.5rem] p-12 text-center">
+                    <h4 class="text-2xl font-bold mb-4 text-slate-800 italic">“不仅仅是视频，我们交付的是效率。”</h4>
+                    <p class="text-slate-500 leading-relaxed">
+                        目前我们主打四季青专供童模业务，女装、箱包、家居等品类正处于灰度测试中。我们将持续通过算法突破，让全网没有拍不起的商拍。
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-24 bg-slate-50">
+        <div class="max-w-3xl mx-auto px-4 text-center">
+            <h2 class="text-4xl font-black mb-4">开启您的第一次 AI 商拍测试</h2>
+            <p class="text-slate-500 mb-12">扫描二维码或添加商务微信，享受免费试拍一套服务</p>
+            
+            <div class="bg-white p-12 rounded-[3rem] shadow-2xl border border-slate-100 flex flex-col items-center">
+                <div class="w-48 h-48 bg-slate-100 rounded-3xl mb-8 flex items-center justify-center border-2 border-dashed border-slate-300">
+                    <i class="fas fa-qrcode text-6xl text-slate-300"></i>
+                </div>
+                <p class="text-2xl font-mono font-bold text-slate-800 mb-2">微信：Cucothefin</p>
+                <div class="flex gap-3 mb-10">
+                    <span class="bg-green-100 text-green-700 px-4 py-1 rounded-full text-xs font-bold">全商用授权</span>
+                    <span class="bg-blue-100 text-blue-700 px-4 py-1 rounded-full text-xs font-bold">支持对公发票</span>
+                </div>
+                <p class="text-slate-400 text-sm">不满意免费调整 · 画质无暇无畸变 · 动作流畅自然</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-12 bg-white border-t border-slate-100 text-center">
+        <p class="text-slate-400 text-sm italic">© 2026 AI Fashion Lab. 专业 AI 服装商拍服务商.</p>
+    </footer>
+
+</body>
+</html>
